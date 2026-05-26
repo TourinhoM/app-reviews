@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: app-reviews
+  description: Reviews service — stores and caches product reviews
+  annotations:
+    github.com/project-slug: TourinhoM/app-reviews
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-alpha
+  system: platform-lab
+  dependsOn:
+    - resource:app-reviews-db
+    - resource:app-reviews-cache

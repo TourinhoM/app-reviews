@@ -1,0 +1,9 @@
+apiVersion: platform.lab/v1alpha1
+kind: AppDatabase
+metadata:
+  name: app-reviews
+  namespace: app-reviews
+spec:
+  databaseName: app_reviews
+  appUser: app_reviews_user
+  appNamespace: app-reviews

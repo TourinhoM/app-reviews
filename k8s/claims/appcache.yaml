@@ -1,0 +1,7 @@
+apiVersion: platform.lab/v1alpha1
+kind: AppCache
+metadata:
+  name: app-reviews
+  namespace: app-reviews
+spec:
+  appNamespace: app-reviews
