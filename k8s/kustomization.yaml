@@ -20,5 +20,5 @@ configMapGenerator:
 
 images:
   - name: app-image
-    newName: ghcr.io/tourinhoM/app-reviews
+    newName: ghcr.io/tourinhom/app-reviews
     newTag: latest
