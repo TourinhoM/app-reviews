@@ -5,6 +5,7 @@ metadata:
   description: Reviews service — stores and caches product reviews
   annotations:
     github.com/project-slug: TourinhoM/app-reviews
+    argocd/app-name: app-reviews
 spec:
   type: service
   lifecycle: experimental
